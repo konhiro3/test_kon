@@ -1,6 +1,3 @@
-# プラン変更チェック処理フロー
-
-```mermaid
 flowchart TD
     Start([初期処理])
     Start --> A[認可排他チェック]
@@ -42,8 +39,6 @@ flowchart TD
     end
 
     subgraph 凡例
-        LoopStart[ループ(開始)]
-        LoopEnd[ループ(終了)]
+        Loop開始[ループ(開始)]
+        Loop終了[ループ(終了)]
     end
-
-```
