@@ -42,7 +42,8 @@ flowchart TD
     end
 
     subgraph 凡例
-        LoopStart[[ループ(開始)]]
-        LoopEnd[[ループ(終了)]]
+        LoopStart[ループ(開始)]
+        LoopEnd[ループ(終了)]
     end
+
 ```
